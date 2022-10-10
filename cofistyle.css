@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 20px;
+    font-style: italic;
+}
+.logo img{
+    width: 40%;
+}
+header a{
+    color: rgb(4, 14, 155);
+    text-decoration: none;
+}
+.Menu{
+    display: grid;
+    grid-template-columns: 200px 200px 200px
+    grid-template-rows: repeat(3,200px)
+    gap: 20px
+}
